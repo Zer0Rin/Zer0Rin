@@ -6,14 +6,16 @@
 
 ## Currently Building
 
-**[BetterLearn for DSH](https://github.com/Zer0Rin/betterlearn-for-dsh)** — 一个本地、来源可追溯的 AI 学习插件，将文件和 DSH 对话转化为经过人工审核的知识点与可持续学习课程。
+**[BetterLearn](https://github.com/Zer0Rin/betterlearn)** — 本地优先的 AI 学习工作台，提供独立 Web 与 Electron 桌面应用。将文件和知识库资料转化为经过原文证据校验与人工审核的知识点，串联学习书、课程、练习与模拟考试。
+
+通过 MCP 接入 Codex / Claude Code，复用本机业务服务、学习资料与任务记录；将上传与向量化分离，生成操作需显式触发，并通过请求去重与不确定结果处理控制重复模型调用风险。
 
 ## Selected Projects
 
 | Project | Description | Stack |
 |---|---|---|
-| [BetterLearn for DSH](https://github.com/Zer0Rin/betterlearn-for-dsh) | 来源约束、人工审核、课程与掌握度持久化的本地 AI 学习插件 | TypeScript · React · Python · SQLite · JSON-RPC · SSE |
-| [MusicPlayer](https://github.com/Zer0Rin/music-player-project) | 包含播放、歌词、用户、社区与 AI 功能的全栈 Web 音乐平台 | Java · Spring Boot · Nuxt · Vue · SQLite · JWT |
+| [BetterLearn](https://github.com/Zer0Rin/betterlearn) | 来源审核、学习与练习流程、MCP 接入及模型调用控制；Web 与桌面共用本机服务 | TypeScript · React · Electron · Python · SQLite · Chroma · MCP |
+| Echoes / MusicPlayer（私有仓库） | 包含播放、歌单、社区、语义找歌与 AI DJ 的全栈 Web 音乐平台 | Java · Spring Boot · Spring AI · Nuxt · Vue · SQLite |
 | [VidFast](https://github.com/Zer0Rin/VidFast) | 面向 Seedance 2.0 与 MiniMax H3 API 的本地 Python WebUI 和 CLI | Python · WebUI · CLI · Multimodal API |
 | [Zer0Rin Skills](https://github.com/Zer0Rin/skills) | 角色一致性与多模态视频提示词的可复用 Codex skills | Codex Skills · Prompt Workflows |
 
